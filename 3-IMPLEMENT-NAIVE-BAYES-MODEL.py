@@ -66,15 +66,15 @@ print('\n Accuracy of the classifer is',
 
 print('\n Confusion matrix')
 
- print(metrics.confusion_matrix(ytest,predicted)) 
+print(metrics.confusion_matrix(ytest,predicted)) 
 
 print('\n The value of Precision' ,
 
  metrics.precision_score(ytest,predicted)) 
 
-print('\n The value of Recall' ,
+print('\n The value of Recall') ,
 
- metrics.recall_score(ytest,predicted)
+metrics.recall_score(ytest,predicted)
 
 # OUTPUT
 # The dimensions of the dataset (18, 2)
